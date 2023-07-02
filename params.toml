@@ -1,0 +1,24 @@
+# 线程数
+tread_num = 50
+# 替换mp4文件名特殊字符
+replace_char_list = [" ", "(", "（", "）", ")", "&", "/", ",", "", "?", "!", "…", "。", "，", "！", "、", "～", "【", "】", "？"]
+# 下载文件根目录
+root_path = "/Users/tangyu/Desktop/tonyzone/movies/"
+
+# 通过m3u8文件下载
+[download_by_m3u8_file]
+mp4_file_name = "xxxx"
+m3u8_file_path = "/Users/tangyu/Downloads/index.m3u8"
+m3u8_url = "https://xxx/index.m3u8"
+end_ts_url = "https://xxx/index2333.ts"
+# 将ts文件转换成mp4文件
+[merge_ts_files2mp4]
+ts_files_dir = "/Users/tangyu/Desktop/tonyzone/movies/films/20230428_230038_803"
+mp4_file_name = "20230413词汇加强01"
+delete_byte = 0
+
+# m3u8_url和file_name 文件名字符串列表
+[downloat_ts_film]
+m3u8_url_file_name_list = [
+    # "http://www.u126.com/uubf/douluodalu-4-1.html",
+]
